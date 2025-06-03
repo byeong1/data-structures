@@ -14,9 +14,9 @@ Algorithm3 : T₃(n) = 3/2n²-3/2n+1
 ```
 
 1. Algorithm2가 Algorithm1보다 약 2배 느리다 : True
-2. Algorithm3는 n < /frac{5}{3}면 Algorithm2보다 빠르다 : True
+2. Algorithm3는 n < $\frac{5}{3}$면 Algorithm2보다 빠르다 : True
 3. Algorithm3는 모든 N에 대해서 Algorithm1보다 느리다 : True
-4. Algorithm3는 n > 5/3면 항상 Algorithm2보다 느리다 : True
+4. Algorithm3는 n > $\frac{5}{3}$면 항상 Algorithm2보다 느리다 : True
 
 T₁(n), T₂(n) : n에 대해 선형적으로 증가  
 -> 최고 차항 n
