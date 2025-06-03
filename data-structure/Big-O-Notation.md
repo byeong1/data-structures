@@ -9,14 +9,14 @@ Algorithm1 : T₁(n) = 2n-1
 Algorithm2 : T₂(n) = 4n+1
 (sum1)
 
-Algorithm3 : T₃(n) = 3/2n²-3/2n+1
+Algorithm3 : T₃(n) = $\frac{3}{2}$n²-$\frac{3}{2}$n+1
 (sum2)
 ```
 
 1. Algorithm2가 Algorithm1보다 약 2배 느리다 : True
-2. Algorithm3는 n < $\frac{5}{3}$면 Algorithm2보다 빠르다 : True
+2. Algorithm3는 n < $\frac{5}{3}$ 이면 Algorithm2보다 빠르다 : True
 3. Algorithm3는 모든 N에 대해서 Algorithm1보다 느리다 : True
-4. Algorithm3는 n > $\frac{5}{3}$면 항상 Algorithm2보다 느리다 : True
+4. Algorithm3는 n > $\frac{5}{3}$ 이면 항상 Algorithm2보다 느리다 : True
 
 T₁(n), T₂(n) : n에 대해 선형적으로 증가  
 -> 최고 차항 n
@@ -32,7 +32,7 @@ T₃(n) : n에 대해 제곱으로 증가
 ```
 T₁(n) = 2n-1 -> O(n)
 T₂(n) = 4n+1 -> O(n)
-T₃(n) = 3/2n²-3/2n+1 -> O(n²)
+T₃(n) = $\frac{3}{2}$n²-$\frac{3}{2}$n+1 -> O(n²)
 ```
 
 1️⃣ 최고 차항만 남긴다.  
