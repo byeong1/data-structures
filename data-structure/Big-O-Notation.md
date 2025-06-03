@@ -14,7 +14,7 @@ Algorithm3 : T₃(n) = 3/2n²-3/2n+1
 ```
 
 1. Algorithm2가 Algorithm1보다 약 2배 느리다 : True
-2. Algorithm3는 n < 5/3면 Algorithm2보다 빠르다 : True
+2. Algorithm3는 n < /frac{5}{3}면 Algorithm2보다 빠르다 : True
 3. Algorithm3는 모든 N에 대해서 Algorithm1보다 느리다 : True
 4. Algorithm3는 n > 5/3면 항상 Algorithm2보다 느리다 : True
 
@@ -41,16 +41,7 @@ T₃(n) = 3/2n²-3/2n+1 -> O(n²)
 
 - 집합으로 이해하기
 
-T₁(n) = 2n-1 -> O(n)  
-T₂(n) = 4n+1 -> O(n)  
-T₃(n) = 3/2n²-3/2n+1 -> O(n²)
-
-T₁(n) ∈ O(n)  
-T₂(n) ∈ O(n)  
-T₃(n) ∈ O(n²)
-
-O(n) = { f(n) | f(n) ∈ O(n) }  
-O(n) ∈ O(n)
+![alt text](image-1.png)
 
 _예시_
 
